@@ -264,8 +264,8 @@ document.getElementById('mitraForm').addEventListener('submit', function(event) 
     const universitas = document.getElementById('universitas').value;
 
     // Ganti dengan nomor WhatsApp admin Anda, termasuk kode negara (misal, 62 untuk Indonesia)
-    const whatsappNumber = '6285379504992'; // **INGAT! GANTI DENGAN NOMOR WHATSAPP ADMIN ANDA**
-    const message = `Halo Admin Maskos, saya ingin mendaftar sebagai mitra dengan detail berikut:\n\nNama: ${nama}\nAsal/Alamat: ${asal}\nUniversitas/Sekolah: ${universitas || 'Tidak ada'}\n\nMohon dihubungi segera. Terima kasih!`;
+    const whatsappNumber = '6283891543955'; // **INGAT! GANTI DENGAN NOMOR WHATSAPP ADMIN ANDA**
+    const message = `Halo Admin Maskos, saya ingin mendaftar sebagai mitra dengan detail berikut:\n\nNama: ${nama}\nAsal/Alamat: ${asal}\nUniversitas/Sekolah: ${universitas || 'Tidak ada'}\n\nSaya sudah mengisi formulir bagaiamana langkah selanjutnya?`;
 
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
